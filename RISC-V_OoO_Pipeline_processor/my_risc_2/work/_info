@@ -1,0 +1,430 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ckunc/Downloads/RISC-V_OoO_Pipeline_processor/RISC-V_OoO_Pipeline_processor/my_risc_2
+T_opt
+!s110 1770213654
+Vkb>Y8QSf;IYE00AMJa`b?2
+04 7 4 work tb_core fast 0
+=1-e8d8d137ed77-69835115-262-4e8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+valu
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1770213649
+!i10b 1
+!s100 2ezWEn@DB=Lk01>6ROeE13
+IR]ki0H@Oh>PMf6T`kBKeg2
+S1
+R0
+w1769950990
+8rtl/execute/alu.sv
+Frtl/execute/alu.sv
+!i122 2
+L0 1 21
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1770213648.000000
+!s107 rtl/execute/alu.sv|
+!s90 -reportprogress|300|rtl/execute/alu.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbranch_unit
+R2
+R3
+!i10b 1
+!s100 8I0UNjeBW]O9RBAdIdanA0
+I^QDdk9_l7o8`KfIAZ^LgV0
+S1
+R0
+w1770015448
+8rtl/execute/branch_unit.sv
+Frtl/execute/branch_unit.sv
+!i122 3
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1770213649.000000
+!s107 rtl/execute/branch_unit.sv|
+!s90 -reportprogress|300|rtl/execute/branch_unit.sv|
+!i113 0
+R7
+R1
+vcore_top
+R2
+Z9 !s110 1770213652
+!i10b 1
+!s100 WV`J6;?z54JJXRc]c4NSz2
+IB^XKAEcUAIL<TYkL1h?`:2
+S1
+R0
+w1770138387
+8rtl/top/core_top.sv
+Frtl/top/core_top.sv
+!i122 15
+L0 1 612
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1770213651.000000
+!s107 rtl/top/core_top.sv|
+!s90 -reportprogress|300|rtl/top/core_top.sv|
+!i113 0
+R7
+R1
+vd_cache
+R2
+Z11 !s110 1770213651
+!i10b 1
+!s100 z[8^3^eWTSZd5cK8XM^n[0
+IJ5<>R73Ge5Cm>GcUTiH=91
+S1
+R0
+Z12 w1769950992
+8rtl/memory/d_cache.sv
+Frtl/memory/d_cache.sv
+!i122 11
+L0 1 34
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 rtl/memory/d_cache.sv|
+!s90 -reportprogress|300|rtl/memory/d_cache.sv|
+!i113 0
+R7
+R1
+vfreelist
+R2
+R3
+!i10b 1
+!s100 C3cKkYHEH=;DF8?HEKe`G3
+IhzZIk353J5E7VL:e^Wz]c1
+S1
+R0
+w1770031254
+8rtl/rename_issue/freelist.sv
+Frtl/rename_issue/freelist.sv
+!i122 5
+L0 1 54
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 rtl/rename_issue/freelist.sv|
+!s90 -reportprogress|300|rtl/rename_issue/freelist.sv|
+!i113 0
+R7
+R1
+vid_stage
+R2
+Z13 !s110 1770213648
+!i10b 1
+!s100 MMISLlB`VSmHJO5_S2mDW0
+I2HUVfdon1<g22^[ZJ2]_b0
+S1
+R0
+w1770050696
+8rtl/frontend/id_stage.sv
+Frtl/frontend/id_stage.sv
+!i122 1
+L0 1 102
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 rtl/frontend/id_stage.sv|
+!s90 -reportprogress|300|rtl/frontend/id_stage.sv|
+!i113 0
+R7
+R1
+vif_stage
+R2
+R13
+!i10b 1
+!s100 zZL2D<3aH;2i=6f5SC<PQ3
+IMATU9BFl_:kYgI9@dgSfG1
+S1
+R0
+w1770050258
+8rtl/frontend/if_stage.sv
+Frtl/frontend/if_stage.sv
+!i122 0
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 rtl/frontend/if_stage.sv|
+!s90 -reportprogress|300|rtl/frontend/if_stage.sv|
+!i113 0
+R7
+R1
+vimem
+R2
+R11
+!i10b 1
+!s100 13:`F1T;TL5=65aFNmVP>2
+I_S?[UJD@@4DVA4639fkU`1
+S1
+R0
+w1770138123
+8rtl/memory/imem.sv
+Frtl/memory/imem.sv
+!i122 14
+L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 rtl/memory/imem.sv|
+!s90 -reportprogress|300|rtl/memory/imem.sv|
+!i113 0
+R7
+R1
+vissue_logic
+R2
+Z14 !s110 1770213650
+!i10b 1
+!s100 fHMWL0<LEz?8nZQ?I`CZE2
+I_?Z[K`MmCC9^^]megHfXf2
+S1
+R0
+R12
+8rtl/rename_issue/issue_logic.sv
+Frtl/rename_issue/issue_logic.sv
+!i122 8
+L0 1 6
+R4
+R5
+r1
+!s85 0
+31
+Z15 !s108 1770213650.000000
+!s107 rtl/rename_issue/issue_logic.sv|
+!s90 -reportprogress|300|rtl/rename_issue/issue_logic.sv|
+!i113 0
+R7
+R1
+vlsu
+R2
+R14
+!i10b 1
+!s100 5>Lg4f:^B1madQkUEdNOO0
+I>PM_dEzOTW_Ya_7_U[9EB1
+S1
+R0
+w1769951976
+8rtl/memory/lsu.sv
+Frtl/memory/lsu.sv
+!i122 10
+L0 1 169
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 rtl/memory/lsu.sv|
+!s90 -reportprogress|300|rtl/memory/lsu.sv|
+!i113 0
+R7
+R1
+vmemory_system
+R2
+R11
+!i10b 1
+!s100 C<gj1OVOQa@AaXi4=U>2V1
+I^`U8<0`UBkllBP;V<@V9d2
+S1
+R0
+w1769952398
+8rtl/memory/memory_system.sv
+Frtl/memory/memory_system.sv
+!i122 13
+L0 1 150
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 rtl/memory/memory_system.sv|
+!s90 -reportprogress|300|rtl/memory/memory_system.sv|
+!i113 0
+R7
+R1
+vmshr
+R2
+R11
+!i10b 1
+!s100 >D[LlW^GVSCofcHl]mn>E1
+IPDQL8@zY5Q1UJlW=;DUXY0
+S1
+R0
+R12
+8rtl/memory/mshr.sv
+Frtl/memory/mshr.sv
+!i122 12
+L0 1 67
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 rtl/memory/mshr.sv|
+!s90 -reportprogress|300|rtl/memory/mshr.sv|
+!i113 0
+R7
+R1
+vphys_regfile
+R2
+R3
+!i10b 1
+!s100 2EAYc@JM]n_STZ>h@Qkn`1
+IHU=<^J08C>d1GW4L3iz>M3
+S1
+R0
+w1770027362
+8rtl/regfile/phys_regfile.sv
+Frtl/regfile/phys_regfile.sv
+!i122 4
+L0 1 44
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 rtl/regfile/phys_regfile.sv|
+!s90 -reportprogress|300|rtl/regfile/phys_regfile.sv|
+!i113 0
+R7
+R1
+vrat
+R2
+R3
+!i10b 1
+!s100 L=fJDW1zzk58Nohb_Ikc43
+IIWkHNRTCXCNGk?22G63H>3
+S1
+R0
+w1770031814
+8rtl/rename_issue/rat.sv
+Frtl/rename_issue/rat.sv
+!i122 6
+L0 1 55
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 rtl/rename_issue/rat.sv|
+!s90 -reportprogress|300|rtl/rename_issue/rat.sv|
+!i113 0
+R7
+R1
+vreservation_station
+R2
+R14
+!i10b 1
+!s100 a8J6M47ZUQRohb8He@jcQ0
+I[LXGY51MS^cXg][1o_X]J2
+S1
+R0
+w1770032558
+8rtl/rename_issue/reservation_station.sv
+Frtl/rename_issue/reservation_station.sv
+!i122 7
+L0 1 166
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 rtl/rename_issue/reservation_station.sv|
+!s90 -reportprogress|300|rtl/rename_issue/reservation_station.sv|
+!i113 0
+R7
+R1
+vrob
+R2
+R14
+!i10b 1
+!s100 ;kYUh7lMYI9`KFjS_eM]J2
+IjkF>0g7S:SM8@MQ[cWDQ^1
+S1
+R0
+w1770032106
+8rtl/commit/rob.sv
+Frtl/commit/rob.sv
+!i122 9
+L0 1 128
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 rtl/commit/rob.sv|
+!s90 -reportprogress|300|rtl/commit/rob.sv|
+!i113 0
+R7
+R1
+vtb_core
+R2
+R9
+!i10b 1
+!s100 97cEa_nHKo4MTM^h;:7QP1
+I3J`[=AX`9VKPLQHCOaE<j1
+S1
+R0
+R12
+8tb/tb_core.sv
+Ftb/tb_core.sv
+!i122 16
+L0 1 35
+R4
+R5
+r1
+!s85 0
+31
+!s108 1770213652.000000
+!s107 tb/tb_core.sv|
+!s90 -reportprogress|300|tb/tb_core.sv|
+!i113 0
+R7
+R1
