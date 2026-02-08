@@ -7,12 +7,6 @@ if {[file exists work]} {
 vlib work
 vmap work work
 
-# =================================================
-# Compile (ORDER MATTERS)
-# =================================================
-vlog rtl/common/defines.sv
-vlog rtl/common/types.sv
-
 # Frontend
 vlog rtl/frontend/if_stage.sv
 vlog rtl/frontend/id_stage.sv
@@ -180,3 +174,4 @@ add wave -group DCACHE sim:/tb_core/dut/u_mem_system/u_dcache/hit
 # RUN
 # =================================================
 run 500ns
+
