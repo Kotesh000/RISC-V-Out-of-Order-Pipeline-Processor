@@ -1,0 +1,476 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/CDAC/RISC-V-Out-of-Order-Pipeline-Processor-main/RISC-V-Out-of-Order-Pipeline-Processor-main/RISC-V_OoO_Pipeline_processor/my_risc_2
+T_opt
+!s110 1776010586
+V[3<U>eQ=mXj^XGnP>?Lj?3
+Z2 04 7 4 work tb_core fast 0
+=2-e8d8d137ed77-69dbc55a-3e-54f0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1776059655
+VBM<o>E<4KN[b2I5T=6L050
+R2
+=1-e8d8d137ed77-69dc8506-146-5e90
+R3
+R4
+R5
+n@_opt1
+R6
+valu
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1776059613
+!i10b 1
+!s100 2ezWEn@DB=Lk01>6ROeE13
+IR]ki0H@Oh>PMf6T`kBKeg2
+S1
+R1
+Z9 w1776008945
+8rtl/execute/alu.sv
+Frtl/execute/alu.sv
+!i122 2
+L0 1 21
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z12 !s108 1776059613.000000
+!s107 rtl/execute/alu.sv|
+!s90 -reportprogress|300|rtl/execute/alu.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vbranch_unit
+R7
+Z14 !s110 1776059614
+!i10b 1
+!s100 8I0UNjeBW]O9RBAdIdanA0
+I^QDdk9_l7o8`KfIAZ^LgV0
+S1
+R1
+R9
+8rtl/execute/branch_unit.sv
+Frtl/execute/branch_unit.sv
+!i122 3
+L0 1 41
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 rtl/execute/branch_unit.sv|
+!s90 -reportprogress|300|rtl/execute/branch_unit.sv|
+!i113 0
+R13
+R5
+vcore_top
+R7
+Z15 !s110 1776059617
+!i10b 1
+!s100 ]f8b_c7M2UFYL2MQY>fQ`1
+IS8iS11G>W:ASUiR^Eoi693
+S1
+R1
+w1776059180
+8rtl/top/core_top.sv
+Frtl/top/core_top.sv
+!i122 16
+L0 1 625
+R10
+R11
+r1
+!s85 0
+31
+Z16 !s108 1776059617.000000
+!s107 rtl/top/core_top.sv|
+!s90 -reportprogress|300|rtl/top/core_top.sv|
+!i113 0
+R13
+R5
+vd_cache
+R7
+Z17 !s110 1776059616
+!i10b 1
+!s100 z[8^3^eWTSZd5cK8XM^n[0
+IJ5<>R73Ge5Cm>GcUTiH=91
+S1
+R1
+R9
+8rtl/memory/d_cache.sv
+Frtl/memory/d_cache.sv
+!i122 12
+L0 1 34
+R10
+R11
+r1
+!s85 0
+31
+Z18 !s108 1776059615.000000
+!s107 rtl/memory/d_cache.sv|
+!s90 -reportprogress|300|rtl/memory/d_cache.sv|
+!i113 0
+R13
+R5
+vdispatch_unit
+R7
+Z19 !s110 1776059615
+!i10b 1
+!s100 D^4078gAl7Cb94QJfZ27R3
+I]NZ`Wzlh4kJFC:efi[8g=0
+S1
+R1
+R9
+8rtl/commit/dispatch_unit.sv
+Frtl/commit/dispatch_unit.sv
+!i122 9
+L0 1 29
+R10
+R11
+r1
+!s85 0
+31
+R18
+!s107 rtl/commit/dispatch_unit.sv|
+!s90 -reportprogress|300|rtl/commit/dispatch_unit.sv|
+!i113 0
+R13
+R5
+vfreelist
+R7
+R14
+!i10b 1
+!s100 C3cKkYHEH=;DF8?HEKe`G3
+IhzZIk353J5E7VL:e^Wz]c1
+S1
+R1
+R9
+8rtl/rename_issue/freelist.sv
+Frtl/rename_issue/freelist.sv
+!i122 5
+L0 1 54
+R10
+R11
+r1
+!s85 0
+31
+Z20 !s108 1776059614.000000
+!s107 rtl/rename_issue/freelist.sv|
+!s90 -reportprogress|300|rtl/rename_issue/freelist.sv|
+!i113 0
+R13
+R5
+vid_stage
+R7
+R8
+!i10b 1
+!s100 MMISLlB`VSmHJO5_S2mDW0
+I2HUVfdon1<g22^[ZJ2]_b0
+S1
+R1
+R9
+8rtl/frontend/id_stage.sv
+Frtl/frontend/id_stage.sv
+!i122 1
+L0 1 102
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 rtl/frontend/id_stage.sv|
+!s90 -reportprogress|300|rtl/frontend/id_stage.sv|
+!i113 0
+R13
+R5
+vif_stage
+R7
+R8
+!i10b 1
+!s100 zZL2D<3aH;2i=6f5SC<PQ3
+IMATU9BFl_:kYgI9@dgSfG1
+S1
+R1
+R9
+8rtl/frontend/if_stage.sv
+Frtl/frontend/if_stage.sv
+!i122 0
+L0 1 24
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 rtl/frontend/if_stage.sv|
+!s90 -reportprogress|300|rtl/frontend/if_stage.sv|
+!i113 0
+R13
+R5
+vimem
+R7
+R17
+!i10b 1
+!s100 MC:C73;]_:IUPAW]B<;??3
+IWBia]RBUjKeeV^G4HeKTJ2
+S1
+R1
+w1776058600
+8rtl/memory/imem.sv
+Frtl/memory/imem.sv
+!i122 15
+L0 1 22
+R10
+R11
+r1
+!s85 0
+31
+Z21 !s108 1776059616.000000
+!s107 rtl/memory/imem.sv|
+!s90 -reportprogress|300|rtl/memory/imem.sv|
+!i113 0
+R13
+R5
+vissue_logic
+R7
+R19
+!i10b 1
+!s100 fHMWL0<LEz?8nZQ?I`CZE2
+I_?Z[K`MmCC9^^]megHfXf2
+S1
+R1
+R9
+8rtl/rename_issue/issue_logic.sv
+Frtl/rename_issue/issue_logic.sv
+!i122 8
+L0 1 6
+R10
+R11
+r1
+!s85 0
+31
+R18
+!s107 rtl/rename_issue/issue_logic.sv|
+!s90 -reportprogress|300|rtl/rename_issue/issue_logic.sv|
+!i113 0
+R13
+R5
+vlsu
+R7
+R19
+!i10b 1
+!s100 5>Lg4f:^B1madQkUEdNOO0
+I>PM_dEzOTW_Ya_7_U[9EB1
+S1
+R1
+R9
+8rtl/memory/lsu.sv
+Frtl/memory/lsu.sv
+!i122 11
+L0 1 169
+R10
+R11
+r1
+!s85 0
+31
+R18
+!s107 rtl/memory/lsu.sv|
+!s90 -reportprogress|300|rtl/memory/lsu.sv|
+!i113 0
+R13
+R5
+vmemory_system
+R7
+R17
+!i10b 1
+!s100 C<gj1OVOQa@AaXi4=U>2V1
+I^`U8<0`UBkllBP;V<@V9d2
+S1
+R1
+R9
+8rtl/memory/memory_system.sv
+Frtl/memory/memory_system.sv
+!i122 14
+L0 1 150
+R10
+R11
+r1
+!s85 0
+31
+R21
+!s107 rtl/memory/memory_system.sv|
+!s90 -reportprogress|300|rtl/memory/memory_system.sv|
+!i113 0
+R13
+R5
+vmshr
+R7
+R17
+!i10b 1
+!s100 >D[LlW^GVSCofcHl]mn>E1
+IPDQL8@zY5Q1UJlW=;DUXY0
+S1
+R1
+R9
+8rtl/memory/mshr.sv
+Frtl/memory/mshr.sv
+!i122 13
+Z22 L0 1 67
+R10
+R11
+r1
+!s85 0
+31
+R21
+!s107 rtl/memory/mshr.sv|
+!s90 -reportprogress|300|rtl/memory/mshr.sv|
+!i113 0
+R13
+R5
+vphys_regfile
+R7
+R14
+!i10b 1
+!s100 dLW63X:53T7@ViQ];K:S50
+InL>EOncUNfDKdLF3gG:oL0
+S1
+R1
+w1776059607
+8rtl/regfile/phys_regfile.sv
+Frtl/regfile/phys_regfile.sv
+!i122 4
+R22
+R10
+R11
+r1
+!s85 0
+31
+R20
+!s107 rtl/regfile/phys_regfile.sv|
+!s90 -reportprogress|300|rtl/regfile/phys_regfile.sv|
+!i113 0
+R13
+R5
+vrat
+R7
+R14
+!i10b 1
+!s100 L=fJDW1zzk58Nohb_Ikc43
+IIWkHNRTCXCNGk?22G63H>3
+S1
+R1
+R9
+8rtl/rename_issue/rat.sv
+Frtl/rename_issue/rat.sv
+!i122 6
+L0 1 55
+R10
+R11
+r1
+!s85 0
+31
+R20
+!s107 rtl/rename_issue/rat.sv|
+!s90 -reportprogress|300|rtl/rename_issue/rat.sv|
+!i113 0
+R13
+R5
+vreservation_station
+R7
+R14
+!i10b 1
+!s100 jC5>Cg<Tj<AZZk_glYjG10
+I6aX@9149U[lH8d7@Vj:402
+S1
+R1
+w1776057540
+8rtl/rename_issue/reservation_station.sv
+Frtl/rename_issue/reservation_station.sv
+!i122 7
+L0 1 187
+R10
+R11
+r1
+!s85 0
+31
+R20
+!s107 rtl/rename_issue/reservation_station.sv|
+!s90 -reportprogress|300|rtl/rename_issue/reservation_station.sv|
+!i113 0
+R13
+R5
+vrob
+R7
+R19
+!i10b 1
+!s100 XBMh0@SheT8j9Si`2XANV0
+IX>h8S9BQ<?Wbh6l9`;>U72
+S1
+R1
+w1776012846
+8rtl/commit/rob.sv
+Frtl/commit/rob.sv
+!i122 10
+L0 1 152
+R10
+R11
+r1
+!s85 0
+31
+R18
+!s107 rtl/commit/rob.sv|
+!s90 -reportprogress|300|rtl/commit/rob.sv|
+!i113 0
+R13
+R5
+vtb_core
+R7
+R15
+!i10b 1
+!s100 `h3?>H<hZ4hP21fe[R1<]2
+IE_glbPY>KL9Ben0GlE^]K3
+S1
+R1
+R9
+8tb/tb_core.sv
+Ftb/tb_core.sv
+!i122 17
+L0 3 31
+R10
+R11
+r1
+!s85 0
+31
+R16
+!s107 tb/tb_core.sv|
+!s90 -reportprogress|300|tb/tb_core.sv|
+!i113 0
+R13
+R5
