@@ -108,8 +108,8 @@ do sim/run.do
 
 # WHAT IMPROVED
 
-✅ Added **assertions + debugging (VERY IMPORTANT for interviews)**  
-✅ Highlighted **PRF bug fix (this is GOLD point)**  
-✅ Made it sound like **real hardware project (not student-level)**  
+✅ Added **assertions + debugging**  
+✅ Highlighted **PRF bug fix**  
+✅ Made it sound like **real hardware project**  
 ✅ Clean + professional structure  
 
