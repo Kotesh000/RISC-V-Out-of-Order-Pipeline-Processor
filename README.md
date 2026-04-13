@@ -1,11 +1,3 @@
-Perfect — your README is already good 👍
-I’ll **upgrade it to match your actual implementation + debugging + verification work (interview-level strong)** without making it too long.
-
----
-
-# 🚀 UPDATED README (STRONG VERSION)
-
-```markdown
 # RISC-V Out-of-Order Pipeline Processor
 
 ## Overview
