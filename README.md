@@ -104,11 +104,9 @@ do sim/run.do
 * Cache integration (I-cache/D-cache)
 * FPGA implementation
 
-```
-
 ---
 
-# 🎯 WHAT IMPROVED
+# WHAT IMPROVED
 
 ✅ Added **assertions + debugging (VERY IMPORTANT for interviews)**  
 ✅ Highlighted **PRF bug fix (this is GOLD point)**  
