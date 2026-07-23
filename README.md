@@ -108,8 +108,8 @@ do sim/run.do
 
 # WHAT IMPROVED
 
-✅ Added **assertions + debugging**  
-✅ Highlighted **PRF bug fix**  
-✅ Made it sound like **real hardware project**  
-✅ Clean + professional structure  
+Added **assertions + debugging**  
+Highlighted **PRF bug fix**  
+Made it sound like **real hardware project**  
+Clean + professional structure  
 
